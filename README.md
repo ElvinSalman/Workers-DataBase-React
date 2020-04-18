@@ -19,6 +19,11 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run build`
 
+To work with a local database of workers, you need to use:
+
+ 1. ### `npm install -g json-server`
+ 2. ### `json-server --watch api/db.json --port 3004`
+
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
