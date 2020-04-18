@@ -24,6 +24,10 @@ To work with a local database of workers, you need to use:
  1. ### `npm install -g json-server`
  2. ### `json-server --watch api/db.json --port 3004`
  
+ To make a request to the local server, the axios library was used, so you need to run:
+ ### npm install axios --save
+ 
+ 
 This site used data from "react-router-dom", so you need to enter this code in the console:
   ### `npm install react-router-dom`
 
