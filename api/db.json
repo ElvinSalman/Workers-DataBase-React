@@ -3,12 +3,12 @@
     {
       "id": "1",
       "name": "Elvin Salmanov",
-      "position": "front end developer",
+      "position": "Team Leader",
       "salary": "5000"
     },
     {
       "id": "2",
-      "name": "Cavid Bayramov",
+      "name": "Bayram Cabirov",
       "position": "back end developer",
       "salary": "2500"
     },
@@ -17,6 +17,12 @@
       "name": "Cahir Aliyev",
       "position": "front end developer",
       "salary": "2500"
+    },
+    {
+      "name": "Cabrail Memmedov",
+      "position": "junior front-end developer",
+      "salary": "1500",
+      "id": "btdmeUs"
     }
   ]
 }
