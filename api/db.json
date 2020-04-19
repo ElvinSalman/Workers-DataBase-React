@@ -7,10 +7,10 @@
       "salary": "5000"
     },
     {
-      "id": "2",
-      "name": "Bayram Cabirov",
+      "name": "Bayram Ismaylov",
       "position": "back end developer",
-      "salary": "2500"
+      "salary": "2000",
+      "id": "2"
     },
     {
       "id": "3",
@@ -23,6 +23,12 @@
       "position": "junior front-end developer",
       "salary": "1500",
       "id": "btdmeUs"
+    },
+    {
+      "name": "Rufat Garayev",
+      "position": "CoP",
+      "salary": "1000",
+      "id": "V44mZRI"
     }
   ]
 }

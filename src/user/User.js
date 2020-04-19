@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {Container,Row,Col} from "react-bootstrap"
 import axios from 'axios';
+import {Link} from 'react-router-dom'
 
 import './User.css';
 
@@ -41,7 +42,7 @@ class User extends React.Component {
 
   render(){
     
-    const {name,position,salary}=this.props;
+    const {id,name,position,salary}=this.props;
     const {isVisiable}=this.state;
 
     return (
@@ -62,10 +63,11 @@ class User extends React.Component {
                 
                {
                   isVisiable? 
-                  <div style={{textAlign:'left',paddingLeft:'25px'}}> 
+                  <span style={{textAlign:'left',paddingLeft:'25px'}}> 
                     <h2>{position}</h2>
                     <h2>{salary}$</h2>
-                  </div> : null
+                    <Link to={`edit/${id}`} className="btn btn-dark btn-block">Update User</Link>
+                  </span> : null
                }
                
                </Col> 
